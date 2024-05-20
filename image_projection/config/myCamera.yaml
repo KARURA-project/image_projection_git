@@ -1,0 +1,9 @@
+cameras:
+  cam0:
+    camera_model: omni
+    intrinsics: [2.7910537654584546, 716.5089335687251, 715.3601904425212, 318.166766102288, 319.0957056130196]
+    distortion_model: radtan
+    distortion_coeffs: [0.23853332721924964, 4.248490966565388, -0.0006254981748840045, -0.001160012388950163]
+    resolution: [640, 640]
+    rostopic: /usb_cam/right/image_raw
+    frame_id: usb_cam_frame

@@ -1,0 +1,9 @@
+# Used cameras for the projection
+cameras:
+  - '/usb_cam'
+
+# Topic setup
+/usb_cam:
+    image_topic: image_raw
+    camera_info_topic: camera_info
+    extended_camera_info_topic: extended_camera_info_not_used
